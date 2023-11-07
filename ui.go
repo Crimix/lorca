@@ -49,9 +49,9 @@ var defaultChromeArgs = []string{
 	"--no-first-run",
 	"--no-default-browser-check",
 	"--safebrowsing-disable-auto-update",
-	"--enable-automation",
-	"--password-store=basic",
-	"--use-mock-keychain",
+	// "--enable-automation", // https://github.com/zserge/lorca/issues/167
+	// "--password-store=basic",
+	// "--use-mock-keychain",
 }
 
 // New returns a new HTML5 UI for the given URL, user profile directory, window
