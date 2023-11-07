@@ -55,7 +55,7 @@ var defaultChromeArgs = []string{
 }
 
 // Extract browser profile information lorca/Defalut/Preferences. Developers can also set it to other information or empty it as needed.
-var Preferences = []byte(`{"credentials_enable_autofill_passwords": false,"credentials_enable_autosignin": false,"credentials_enable_passwordreveal": false,"credentials_enable_service": false}`)
+var Preferences = []byte(`{"profile.password_manager_enabled": false}`)
 
 // New returns a new HTML5 UI for the given URL, user profile directory, window
 // size and other options passed to the browser engine. If URL is an empty
